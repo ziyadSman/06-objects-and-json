@@ -63,12 +63,6 @@ var Pet;
 
 // Answer Ends Here
 
-module.exports = {
-  answerTwo: pet_owner,
-  answerThree: some_pet,
-  answerFour: Pet
-}
-
 /////////////////////////////////////////////////////////////
 
 // You're done! Refer back to README.md.
