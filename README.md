@@ -192,17 +192,17 @@ While working with objects, we will run to the keyword **this** quite often. We 
   };
 
   var superman = new Superhero('Clark', 'Superman');
-  console.log(superman.firstNAme + ' is ' + superman.superheroName);
+  console.log(superman.firstName + ' is ' + superman.superheroName);
 ```
 
 **Methods** are functions grouped together in our objects. We can call our object methods the same way we call our object properties through the dot notation, with the main difference being that we add () at the end of our statement. To define a method, we assign a function to the named property of the class's prototype property.
 
 ```js
   Superhero.prototype.identity = function() {
-    console.log(this.firstName + ' is ' +this.superheroName);
+    console.log(this.firstName + ' is ' + this.superheroName);
   }
 
-  var superman = new Person('Clark', 'Superman');
+  var superman = new Superhero('Clark', 'Superman');
   superman.identity();
 ```
 
